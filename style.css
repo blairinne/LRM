@@ -21,8 +21,22 @@ ol, ul {
 h1,h2,h3 {
 	
 	color: #637e99;
+	
+}
+#top {
+	background-color: #002e5a;
+	height:60px;
+	color:white;
+	
+}
+#baner {
+	height: 480px;
+	background: url("images/baner_bridge_home_1.jpg") no-repeat;
+	
 }
 #products {
 	border: solid #637e99 0.5px;
+	float: left;
 	
 }
+
