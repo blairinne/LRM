@@ -6,9 +6,23 @@ body {
 	font: inherit;
 	vertical-align: baseline;
 	line-height: 1;
+	
+  -webkit-box-sizing: content-box;
+     -moz-box-sizing: content-box;
+          box-sizing: content-box;
 }
+
 
 
 ol, ul {
 	list-style: none;
+}
+
+h1,h2,h3 {
+	
+	color: #637e99;
+}
+#products {
+	border: solid #637e99 0.5px;
+	
 }
