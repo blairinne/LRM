@@ -13,11 +13,6 @@ body {
 }
 
 
-a:focus,
-a:hover {
-  color: #f5b26c;
-  text-decoration: none;
-}
 
 ol, ul {
 	list-style: none;
@@ -34,47 +29,15 @@ h1,h2,h3 {
 	color:white;
 	
 }
-#header-nav {
-	height: 105px;
-}
-
 #baner {
 	height: 480px;
 	background: url("images/baner_bridge_home_1.jpg") no-repeat;
 	background-size: cover;
 	
 }
-#products_row {
-	
-	padding: 2%;
-	margin: 0 auto;
-}
-.products {
+#products {
 	border: solid #637e99 0.5px;
 	float: left;
-	margin-right: 30px;
-	height:270px;
-	width:265px;
-}
-
-.products:last-child {
 	
-	margin-right: 0px;
 }
 
-#contact {
-	
-	background-color: #002e5a;
-	height:350px;
-}
-
-footer {
-	
-	color:white;
-}
-
-
-#copyright {
-	background-color:#144677;
-	height:75px;
-}
