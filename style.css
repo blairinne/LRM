@@ -91,7 +91,13 @@ h1 {
 	float:left;
 	
 }
-
+.one-box{
+	width:2000px;
+	height:511px;
+}
+.bcg-img {
+	background-image: url("images/img_statistics.jpg");	
+}
 .img-box {
 	width:292px;
 	height:291px;
