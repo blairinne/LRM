@@ -19,7 +19,7 @@ body {
 	font-size: 1.3em;	
 	line-height: 1.6;
 }
-a:focus,
+a:hover,
 nav:hover {
   color: #f5b26c;
   text-decoration: none;
@@ -55,7 +55,7 @@ h1 {
 
 #baner {
 	height: 480px;
-	background: url("images/baner_bridge_home_1.jpg") no-repeat;
+	background: url("../img/baner_bridge_home_1.jpg") no-repeat;
 	background-size: cover;
 	
 }
@@ -78,9 +78,7 @@ h1 {
 	weight:100%;
 	height:100%;
 }
-.margin-20 {
-	margin-left:15%;
-}
+
 .margin-tb {
 	margin: 4% 0 4% 0;
 }
@@ -91,49 +89,64 @@ h1 {
 .margin-t {
 	margin: 2% 0 0 0;
 }
+.margin-0 {
+	
+	margin:0 0 0 0;
+}
 .padding-1 {
 	padding: 1% 1% 1% 1%;	
 }
-.padding-0{
-	padding:0;
+
+.padding-0 {
+	padding: 0 0 0 0;
 }
-#five-elements {
+.margin-small {
 	
-	width:20%;
+}
+.five-elements {
+	
+	height:auto;
+	
 	float:left;
 	
 }
+.radius {
+	border:solid;
+	border-color:#CE7615;
+	border-radius:50%;
+}
 .one-box{
-	width:2000px;
-	height:511px;
+	width:100%;
+	height: 409px;
 }
 .bcg-img {
-	background-image: url("images/img_statistics.jpg");	
+	background-image: url("../img/img_statistics.jpg");	
+	background-size: cover;
 }
 .img-box {
 	width:292px;
 	height:291px;
 }
 .bg1{
-	background-image: url("images/img_offShere.jpg");
+	background-image: url("../img/img_offShere.jpg");
 }
 .bg2{
-	background-image: url("images/img_bridge.jpg");
+	background-image: url("../img/img_bridge.jpg");
 }
 .bg3{
-	background-image: url("images/img_skilift.jpg");
+	background-image: url("../img/img_skilift.jpg");
 }
 .bg4{
-	background-image: url("images/img_Crane_Elevators.jpg");
+	background-image: url("../img/img_Crane_Elevators.jpg");
 }
 .bg5{
-	background-image: url("images/img_mines.jpg");
+	background-image: url("../img/img_mines.jpg");
 }
 .bg6{
-	background-image: url("images/img_tubes.jpg");
+	background-image: url("../img/img_tubes.jpg");
 }
 .bg7{
-	background-image: url("images/img_Conveuor_Belts.jpg");
+	background-image: url("../img/img_Conveuor_Belts.jpg");
 }
 .floatl {
 	float:left;
