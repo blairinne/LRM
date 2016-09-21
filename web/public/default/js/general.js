@@ -1,4 +1,4 @@
-$(".col-md-3").hover(function(){
+$(".lorem").hover(function(){
 		//$(this).parent().find(".boxIntro").show();
 		$(this).parent().find(".lorem").css("opacity",1);
 

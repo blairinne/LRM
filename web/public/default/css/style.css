@@ -1,3 +1,5 @@
+/*MAIN*/
+
 body {
 	margin: 0;
 	padding: 0;
@@ -12,182 +14,44 @@ body {
      -moz-box-sizing: content-box;
           box-sizing: content-box;
 }
-.font-semibold {
-	font-family: 'Open_sanssemibold', serif;
-}
-.font-bold {
-	font-family: 'Open_sansbold', serif;
-}
-.font-regular {
-	font-family: 'Open_sansregular', serif;
-}
-a:hover,
-nav:hover {
-  color: #f5b26c;
-  text-decoration: none;
-}
-.navy-blue:hover {
-	background-color:#012D5C;
-	color:white;
-}
-
-
-.arrow-left:hover {
-	background-image: url("../img/dark-left.png")
-}
-.arrow-right:hover {
-	background-image: url("../img/dark-right.png")
-}
-.arrow-right-white:hover {
-	background-image: url("../img/dark-right-white.png")
-}
-.navy-blue{
-	font-size: 19px;
-	color: #012D5C;
-}
-
-.navy-blue span {
-	min-height:90px;
-}
-.min-70 {
-	min-height:170px;
-}
-ol, ul {
-	list-style: none;
-}
-
 h1,h2,h3,h4,h5 {
 	text-align:center;
 	color: #012d5c;
 	font-family: 'Open_sansbold', serif;
 }
-.arrow-left {
-	background-image: url("../img/left_arrow.png");
-}
-.arrow-right {
-	background-image: url("../img/right_arrow.png");
-	
-}
-.arrow-right-white {
-	background-image: url("../img/right_arrow.png");
-	
+
+ol, ul {
+	list-style: none;
 }
 .radio {
 	color: #012D5C;
 	font-size: 16px;
 }
-.s33 {
-	width:33px;
-	height:33px;
-}
 .block {
 	display: block;
-}
-
-.btn-primary {
-	background-color:#012D5C;
-}
-.orange-border {
-	border-bottom: solid 2px #CE7615;
-}
-.white-font {
-	color:white;
-}
-.orange-font {
-	color:#ce7615;
-}
-.font16 {
-	font-size:16px;
-}
-.black-font {
-	color: black;
-}
-h1 {
-	font-weight:bold;
-}
-#top {
-	background-color: #002e5a;
-	height:60px;
-	color:white;
 }
 .inline-block {
 	display:inline-block;
 }
-nav {
-	font-size:15px;
-	font-family: 'Open_sanssemibold',serif;
+.text-center {
+	text-align:center;
 }
-nav a, .color-dark {
-	color: #002E5A;
+.text-right {
+	text-align:right;
 }
-#header-nav {
-	height: 105px;
+.text-left{
+	text-align:left;
 }
-.navbar {
-	width:100%;
+.relative {
+	position:relative;
 }
-#baner {
-	height: 480px;
-	background: url("../img/baner_bridge_home_1.jpg") no-repeat;
-	background-size: cover;
-	border-top: solid #CE7615 1px;
-	
+.floatl {
+	float:left;
 }
-.bottom-border {
-	border-bottom: 1px solid #e5e5e5;
+.floatr {
+	float:right;
 }
-
-.border-right {
-	border-right: 1px solid white;
-}
-.border-right2 {
-	border-right: 20px solid white;
-}
-.border-right-grey-20 {
-	border-right: 20px solid #F6F6F6;
-}
-.border-grey {
-	border: 1px solid #CFCBCC;
-}
-.border-grey-right {
-	border-right: 1px solid #cfcbcc;
-}
-.bcg-grey {
-	background-color: #f6f6f6;
-}
-.width100 {
-	width:100%;
-}
-.img-product {
-	width:265px;
-	height: 270px;
-}
-.blue-border {
-	border: solid #637e99 1px;
-}
-.bcg-white {
-	background-color:#FFFFFF;
-}
-
-.bcg-dark {
-	background-color: #002e5a;
-	width:100%;
-}
-.height100 {
-	height:100%;
-}
-
-.enquiry-box {
-	height:190px;
-	width:950px;
-}
-.width185 {
-	width: 185px;
-}
-.img {
-	weight:100%;
-	height:100%;
-}
+/*MARGIN*/
 .margin-tb {
 	margin: 4% 0 4% 0;
 }
@@ -216,43 +80,18 @@ nav a, .color-dark {
 .margin-0 {
 	margin:0 0 0 0;
 }
-.relative {
-	position:relative;
+.margin-small {
+	margin: 0 1% 0 1%;
 }
-.absolute-img {
-	position:absolute;
-	top:120px;
-	right:-100px;
+.margin-auto {
+	margin:0 auto;
 }
-.absolute-span {
-	font-size:35px;
-	font-family: 'Open_sansbold',serif;
-
-	
-}
-.font24 {
-	font-size: 24px;
-}
-.relative-h3 {
-	position:relative;
-	top: 100px;
-}
-.relative-img {
-	position:relative;
-	left:50px;
-}
-.text-center {
-	text-align:center;
-}
-.text-right {
-	text-align:right;
-}
-.text-left{
-	text-align:left;
-}
-
+/*PADDING*/
 .padding-1 {
 	padding: 1% 1% 1% 1%;	
+}
+.padding-lr {
+	padding: 1% 3% 0% 5%;
 }
 .padding-bott {
 	padding-bottom:20px;
@@ -269,47 +108,105 @@ nav a, .color-dark {
 .padding-0 {
 	padding: 0 0 0 0;
 }
-.padding-l {
-	padding: 0 0 0 5px;
-}
 .padding-tb {
 	padding: 1% 0 1% 0;
 }
-.margin-small {
-	margin: 0 1% 0 1%;
+/*BORDER*/
+
+.orange-border {
+	border-bottom: solid 2px #CE7615;
 }
-.margin-extra-small {
-	margin: 0 0.1% 0 0.1%;
+.bottom-border {
+	border-bottom: 1px solid #e5e5e5;
 }
-.margin-medium {
-	margin: 0 2% 0 2%;
+.border-right {
+	border-right: 1px solid white;
 }
-.margin-auto {
-	margin:0 auto;
+.border-grey {
+	border: 1px solid #CFCBCC;
 }
-.five-elements {
-	float:left;
-	width:20%;
+.border-grey-right {
+	border-right: 1px solid #cfcbcc;
 }
-.radius {
-	border:solid;
-	border-color:#CE7615;
-	height:160px;
-	width: 160px;
-	border-radius:100%;
-	
+.blue-border {
+	border: solid #637e99 1px;
 }
-.one-box{
+.border-bott {
+	border-bottom: solid 1px #FFFFFF;
+}
+/*FONT*/
+
+.font-semibold {
+	font-family: 'Open_sanssemibold', serif;
+}
+.font-bold {
+	font-family: 'Open_sansbold', serif;
+}
+.font-regular {
+	font-family: 'Open_sansregular', serif;
+}
+.white-font {
+	color:white;
+}
+.orange-font {
+	color:#ce7615;
+}
+.dark-font {
+	color: #002e5a;
+}
+.black-font {
+	color: black;
+}
+.font16 {
+	font-size:16px;
+}
+.font14 {
+	font-size: 14px;
+}
+
+/*HOVER*/
+
+a:hover,
+nav:hover {
+  color: #f5b26c;
+  text-decoration: none;
+}
+.navy-blue:hover {
+	background-color:#012D5C;
+	color:white;
+}
+.arrow-left:hover {
+	background-image: url("../img/dark-left.png")
+}
+.arrow-right:hover {
+	background-image: url("../img/dark-right.png")
+}
+.arrow-right-white:hover {
+	background-image: url("../img/dark-right-white.png")
+}
+
+/*BACKGROUND*/
+
+.btn-primary {
+	background-color:#012D5C;
+}
+.bcg-white {
+	background-color:#FFFFFF;
+}
+
+.bcg-dark {
+	background-color: #002e5a;
 	width:100%;
-	height: 409px;
+}
+.bcg-grey {
+	background-color: #f6f6f6;
+}
+.bcg-blue {
+	background-color:#144677;
 }
 .bcg-img {
 	background-image: url("../img/img_statistics.jpg");	
 	background-size: cover;
-}
-.img-box {
-	width:292px;
-	height:291px;
 }
 .bg1{
 	background-image: url("../img/img_offShere.jpg");
@@ -332,11 +229,127 @@ nav a, .color-dark {
 .bg7{
 	background-image: url("../img/img_Conveuor_Belts.jpg");
 }
-.floatl {
-	float:left;
+/*SPECIFIC*/
+.container-fluid .container .row .col-md-3 .thumbnail {
+	border-radius: 0px;
+	height:270px;
 }
-.floatr {
-	float:right;
+.navy-blue{
+	font-size: 19px;
+	color: #012D5C;
+}
+.navy-blue span{
+	min-height:90px;
+}
+.h150 {
+	height: 150px;
+}
+.min-70 {
+	min-height:170px;
+}
+.width100 {
+	width:100%;
+}
+.height100 {
+	height:100%;
+}
+.arrow-left {
+	background-image: url("../img/left_arrow.png");
+}
+.arrow-right {
+	background-image: url("../img/right_arrow.png");
+}
+.arrow-right-white {
+	background-image: url("../img/right_arrow.png");
+}
+.s33 {
+	width:33px;
+	height:33px;
+}
+#top {
+	background-color: #002e5a;
+	height:60px;
+	color:white;
+}
+nav {
+	font-size:15px;
+	font-family: 'Open_sanssemibold',serif;
+}
+nav a, .color-dark {
+	color: #012E58;
+}
+#header-nav {
+	height: 105px;
+}
+.navbar {
+	width:100%;
+}
+#baner {
+	height: 480px;
+	background: url("../img/baner_bridge_home_1.jpg") no-repeat;
+	background-size: cover;
+	border-top: solid #CE7615 1px;
+}
+.img-product {
+	width:265px;
+	height: 270px;
+}
+.enquiry-box {
+	height:190px;
+	width:950px;
+}
+.width185 {
+	width: 185px;
+}
+.img {
+	width:100%;
+	height:100%;
+}
+.absolute-img {
+	position:absolute;
+	top:120px;
+	right:-100px;
+}
+.absolute-span {
+	font-size:35px;
+	font-family: 'Open_sansbold',serif;
+}
+.relative-whole {
+	position:relative;
+	top:20px;
+	font-size:24px;
+}
+.relative-years {
+	position:relative;
+	bottom:30px;
+	font-size:20px;
+}
+.relative-h3 {
+	position:relative;
+	top: 100px;
+}
+.relative-img {
+	position:relative;
+	left:50px;
+}
+.five-elements {
+	float:left;
+	width:20%;
+}
+.radius {
+	border:solid;
+	border-color:#CE7615;
+	height:160px;
+	width: 160px;
+	border-radius:100%;
+}
+.one-box{
+	width:100%;
+	height: 409px;
+}
+.img-box {
+	width:292px;
+	height:291px;
 }
 .about {
 	margin: 2% 0 2% 0;
@@ -346,29 +359,18 @@ nav a, .color-dark {
 	font-size:14px;
 	height:350px;
 }
-.border-bott {
-	border-bottom: solid 1px #FFFFFF;
-}
-
-footer {
-	
-	color:white;
-}
-.bcg-blue {
-	background-color:#144677;
-	
-}
 .copyright {
 	height:75px;
 }
-
 .lorem {
 	opacity:0;
-	background-color: rgba(01,45,92,0.5);
+	background-color: rgba(01,45,92,0.9);
 	color:white;
-	width:254,33px;
-	height:216px;
+	width:254px;
+	height:270px;
 	position:absolute;
 	top:0px;
-	
+	bottom:0px;
+	right:0px;
+	left:14px;
 }
