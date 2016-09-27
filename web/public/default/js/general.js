@@ -1,3 +1,5 @@
+var main = function (){
+  
 $(".lorem").hover(function(){
 		//$(this).parent().find(".boxIntro").show();
 		$(this).parent().find(".lorem").css("opacity",1);
@@ -8,3 +10,6 @@ $(".lorem").hover(function(){
 
 	});
 
+};
+
+$(document).ready(main);

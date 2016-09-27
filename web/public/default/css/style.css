@@ -184,7 +184,9 @@ nav:hover {
 .arrow-right-white:hover {
 	background-image: url("../img/dark-right-white.png")
 }
-
+.relative-img:hover {
+	background-image: url("../img/button_learn_more.jpg")
+}
 /*BACKGROUND*/
 
 .btn-primary {
@@ -329,8 +331,11 @@ nav a, .color-dark {
 	top: 100px;
 }
 .relative-img {
+	width:160px;
+	height:45px;
 	position:relative;
 	left:50px;
+	background-image: url("../img/navy_learn.png");
 }
 .five-elements {
 	float:left;
